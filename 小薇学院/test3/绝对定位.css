@@ -1,0 +1,40 @@
+#all {
+	background-color: #eee;
+	border: 2px solid #999;
+	padding: 20px;
+	position: relative;
+}
+#left,#main,#right {
+	background-color: white;
+	border: 2px solid #999;
+	padding: 20px;
+}
+#left img {
+	float: left;
+	margin-right: 20px;
+}
+#right img {
+	padding-bottom: 17px;
+}
+#right #exit {
+	padding-bottom: 0px;
+}
+
+
+#left {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 160px;
+}
+#right {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width:80px;
+}
+
+#main {
+	margin-left: 224px;
+	margin-right: 144px;
+}

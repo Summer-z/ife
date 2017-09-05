@@ -1,0 +1,45 @@
+#all {
+	background-color: #eee;
+	border: 2px solid #999;
+}
+#left,#main,#right {
+	background-color: white;
+	
+	border: 1px solid #999;
+}
+#left img {
+	float: left;
+	margin-right: 20px;
+}
+#right img {
+	padding-bottom: 17px;
+}
+#right #exit {
+	padding-bottom: 0px;
+}
+
+
+#container {
+	overflow: hidden;
+	padding: 20px 162px 20px 242px
+}
+#main {
+	float: left;
+	padding: 20px;
+}
+#left {
+	padding: 20px;
+	float: left;
+	width: 158px;
+	margin-left: -100%;
+	position: relative;
+	left: -222px;
+}
+#right {
+	padding: 20px;
+	float: left;
+	width: 78px;
+	margin-left: -120px;
+	position: relative;
+	right: -142px;
+}

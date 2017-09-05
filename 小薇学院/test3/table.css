@@ -1,0 +1,32 @@
+#all {
+	display: table;
+	background-color: #eee;
+	border: 2px solid #999;
+	padding: 20px;
+	
+}
+#left,#main,#right {
+	display: table-cell;
+	background-color: white;
+	border: 1px solid #999;
+	padding: 20px;
+}
+#left img {
+	float: left;
+	margin-right: 20px;
+}
+#right img {
+	padding-bottom: 17px;
+}
+#right #exit {
+	padding-bottom: 0px;
+}
+
+
+#left {
+	width: 160px;
+}
+#right {
+	float: right;
+	width:80px;
+}

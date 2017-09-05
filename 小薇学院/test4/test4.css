@@ -1,0 +1,32 @@
+.box {
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+}
+.top-left {
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+	border-bottom-right-radius: 50px;
+	position: relative;/*会发现这里用相对或者绝对的定位效果是都一样的*/
+	top: 0;
+	left: 0;
+}
+.bottom-right {
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+	border-top-left-radius: 50px;
+	position: absolute;/*但是这里就只能用绝对定位了，若用相对定位，距离值需要重新计算，会比较麻烦。因为relative是相对
+	                     于它这个块本身应该所在流里面的位置所发生的偏移，就像如果上一个块position是relative或者absolute对
+						 这个块的位置影响很大，因为absolute不在流内，而relative在正常流在；再说absolute，它是相对于离它最近的
+						 position值不为static的祖先元素的偏移，那么在这里就是.box块了，因此它的上下左右偏移值完全是相对于.box
+						 的上下左右边框而言的。*/
+	bottom: 0;
+	right: 0;
+}

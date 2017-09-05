@@ -1,0 +1,107 @@
+body {
+	width:1300px;
+	background-color:#ddd;
+	font-family:SimHei;
+}
+h3,h5 {color:#666;}
+p {
+	line-height:1.5;
+	text-indent:2em;/*首行缩进2字符*/
+}
+ #header {
+	 background-color:#333;
+	 width:100%;
+ }
+ #header h1 {
+	 color:red;
+	 padding:17px 0 17px 30px;
+}
+ #nav {
+	 float:right;
+	 font-size:0.8em; 
+	 margin:20px 25px 20px 0;
+	 padding:5px;
+ }
+#nav li {display:inline;}
+#nav a:link {color:white;}
+#nav a:hover {color:red;}
+#nav a:visited {color:green;}
+#nav a:active {color:yellow;}/*点击链接后闪过的颜色*/
+
+.box {
+	background-color:white;
+	margin:20px;
+	padding:30px 20px;
+	border:2px outset #ccc;
+}
+
+.pics{
+	width:530px;
+	margin:30px 0 0 60px;
+	padding-bottom:15px;
+	text-align:center;
+	border:1px black solid;
+}
+
+table {
+	width:1200px;
+	margin:10px;
+	border-collapse:collapse;/*合并边框*/
+	text-align:left;
+}
+table tr td,th {
+	border:1px solid silver;	
+	padding:4px;
+	font-size:0.8em;
+}
+table th {
+	background-color:#444;
+	color:white;
+}
+#add {
+	background-color:silver;
+}
+
+form {
+	display:table;	
+	font-size:0.8em;
+	margin-left:300px;
+	padding:10px;	
+}
+form textarea {
+	width:700px;
+	height:200px;
+}
+div.tablerow {
+	display:table-row;
+}
+div.tablerow p {
+	display:table-cell;
+    vertical-align:top;
+	padding:3px;
+	text-indent:0;
+}
+div.tablerow p:first-child {
+	text-align:right;
+}
+.notice {
+	color:silver;
+}
+#submit {
+	background-color:#0033cc;
+	color:white;
+	width:1200px;
+	margin:10px;
+	padding:5px;
+	font-size:1.2em;
+	border: 0;/*去除前面box给边框加的outset阴影
+	border-radius:10px;/*边框弧度化，值表示的是圆弧半径，若是指定两个值，则为椭圆的水平半径和垂直半径*/
+}
+#copy {
+	background-color:#222;
+	color:white;
+	width:1300px;
+	padding:15px 0;
+	font-size:0.9em;
+    text-align:center;
+}

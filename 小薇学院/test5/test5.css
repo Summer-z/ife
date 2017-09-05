@@ -1,0 +1,143 @@
+body {                           /* 整体设置 */
+    background-color: #ddd;	
+	width: 100%;
+    font-family: SimHei;
+}
+.header {                        /* part 1 页眉设置*/
+	background-color: #333;
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+.header h1 {
+	color: red;
+	margin-left: 3%;	
+	line-height: 80px;
+}
+.header .nav {
+	font-size: 0.9em;
+	position: absolute;
+	top: 20%;
+	right: 3%;
+ }
+ .header .nav li {
+	display: inline-block;
+}
+ .header .nav li a {
+	text-decoration: none;
+ }
+.header .nav li a:link {color: white;}
+.header .nav li a:hover {color: red;}
+.header .nav li a:visited {color: green;}
+.header .nav li a:active {color: yellow;}
+
+.above .arti,.sidebar {        /* 块模块整体设置 */
+    background-color: white;
+    margin: 20px;
+    padding: 30px 20px;
+	border: 2px #fff outset;
+}	
+.above .main {
+    width: auto;
+	margin-right: 374px;
+	overflow: hidden;
+}
+.above .main h3,h5 {          /* part 2 主要内容细节设置 */
+	color: #666;
+}
+.above .main p {
+	text-indent: 2em;
+	line-height: 1.5;
+}
+.main .arti .pics1 {
+    width:40%;
+	display: inline-block;
+}
+.main .arti .pics2 {
+	width: 10%;
+	display: inline-block;
+    padding: 0 10px 10px 10px;
+	margin: 20px;
+	border: 1px black solid;	
+}
+.main .arti .pics2 p {
+	text-align: center;
+	text-indent: 0;
+}
+.main .arti .pics1 img,.pics2 img {
+	width: 100%;
+	height: 100%;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
+table tr th,td {
+	font-size: 0.8em;
+    border: 1px solid silver;
+	padding: 4px;
+}
+table tr th {
+	background-color: #444;
+	color: white;
+}
+table .add {
+	background-color: silver;
+}
+table .col1 {
+	width: 33%;
+}
+table .col2 {
+	width: 33%;
+}
+table .col3 {
+	width: 34%;
+}
+.copy {                        /* part 4 页脚部分设置 */
+	background-color: #222;
+	color: white;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	font-size: 0.9em;
+	text-align: center;
+}
+.above {                      /* part 3 侧栏设置*/
+	position: relative;
+}
+.sidebar {
+	width: 310px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sidebar form {
+	display: table;
+	font-size: 0.8em;
+	line-height: 1.5;
+}
+.sidebar .tablerow {
+	display: table-row;
+}
+.sidebar .tablerow p {
+	display: table-cell;
+	vertical-align: top;	
+}
+.sidebar .tablerow p:first-child {
+	text-align: right;
+}
+.sidebar .notice {
+	color: silver;
+}
+.sidebar .submit {
+	background-color: blue;
+	color: white;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 10px;
+    border: 0;	
+}

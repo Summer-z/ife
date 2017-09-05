@@ -1,0 +1,54 @@
+#all {
+	background-color: #eee;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid #999;
+	position: relative;
+	height: auto;
+}
+
+#team {
+	background-color: white;
+	width: 160px;
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid #999;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#team img {
+	float: left;
+	margin-right: 20px;
+}
+#team p {
+    margin-left: 100px;
+}
+
+#about {
+	background-color: white;
+	width: 100%;
+	margin-left: 224px;
+	margin-right: 144px;
+	padding: 20px;
+	border :2px solid #999;
+
+}
+
+#solo {
+	background-color: white;
+	width: 80px;
+	padding: 20px;
+	margin: 20px;
+	border: 2px solid #999;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#solo img {
+	padding-bottom: 10px;
+}
+#solo #exit {
+	padding-bottom: 0px;
+}
